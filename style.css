@@ -21,7 +21,7 @@ main {
   grid-template-columns: minmax(220px, 1fr) minmax(420px, 1.6fr);
   align-items: center;
   min-height: calc(100vh - 160px);
-   gap: clamp(32px, 5vw, 80px);
+  gap: clamp(32px, 5vw, 80px);
 }
 
 .sidebar {
@@ -108,7 +108,7 @@ h2 {
 }
 
 body {
-  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAClqGDDbi0ZZ-FIMaTufb0aNmdemwZpIjdRXpw7_ikX9yvpIFS7LSAys:https://i.pinimg.com/originals/c7/51/d1/c751d1fe7c5279ba03a318f33af80371.gif&s=10');
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAClqGDDbi0ZZ-FIMaTufb0aNmdemwZpIjdRXpw7_ikX9yvpIFS7LSAys:https://i.pinimg.com/originals/c7/51/d1/c751d1fe7c5279ba03a318f33af80371.gif&s=10");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -133,7 +133,7 @@ body {
 .sidebar-img:hover {
   filter: grayscale(0%);
   transform: translateY (-4px);
-  box-shadow: 0 16px  40px rgba (0, 0, 0, 0.18);
+  box-shadow: 0 16px 40px rgba (0, 0, 0, 0.18);
 }
 
 nav {
@@ -211,7 +211,10 @@ nav h1 {
   background: #ada4a4;
   border: 1px solid #e0e0e0;
   border-radius: 12px;
-  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    transform 0.25s ease;
 }
 
 #portfolio a:hover {
